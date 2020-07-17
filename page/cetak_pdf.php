@@ -37,7 +37,8 @@
         <div class="col-xs-12">
           <h2 class="page-header">
              <center>
-                Data Pemantauan Covid-19 Wilayah <?php echo $data['area'];?><br>
+               Data Pemantauan Covid-19 Wilayah <?php echo $data['area'];?><br>
+               <?php date_default_timezone_set('Asia/Jakarta'); ?>
                Per <?php echo tgl_indo(date('Y-m-d'))." ".date('h:i:sa');?><br>
                <?php echo $_SESSION['nama']."/".$_SESSION['nim'];?>
              </center>
